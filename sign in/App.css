@@ -55,7 +55,7 @@
   width:78%;
 }
 
-.Sign-in-box{
+.Sign-in-box,.Register-box{
   border:1px solid transparent;
   display: flex;
   flex-direction: column;
@@ -64,8 +64,9 @@
   
 }
 
-.Sign-in-box > p {
+.Sign-in-box > p,.Register-box > p {
   align-self: center;
+  font-size: .875rem;
 }
 
 .Input-boxes{
@@ -74,7 +75,14 @@
   border-radius: 0.5rem;
   border: 1px solid #999999;
 }
-#Sign-in-button{
+.Input-boxes-R{
+  padding: 1.36rem;
+  margin-bottom: 6%;
+  border-radius: 0.5rem;
+  border: 1px solid #999999;
+}
+
+#Sign-in-button,#Continue-button{
   padding: 1.15rem;
   border-radius: 1.35rem;
   background-color: #B1C4E7;
