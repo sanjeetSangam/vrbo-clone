@@ -1,0 +1,73 @@
+.Nav {
+  height: 50px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  margin-left: 1rem;
+  gap: 2rem;
+}
+
+#back-image {
+  width: 3%;
+}
+#icon-image {
+  align-self: flex-start;
+  width: 78%;
+}
+
+.Sign-in-box,
+.Register-box {
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+}
+
+.Sign-in-box > p,
+.Register-box > p {
+  align-self: center;
+  font-size: 0.875rem;
+}
+
+.Input-boxes {
+  padding: 1rem;
+  margin: 1%;
+  border-radius: 0.5rem;
+  border: 1px solid #999999;
+}
+.Input-boxes-R {
+  padding: 1.36rem;
+  margin-bottom: 6%;
+  border-radius: 0.5rem;
+  border: 1px solid #999999;
+}
+
+#Sign-in-button,
+#Continue-button {
+  padding: 1.15rem;
+  border-radius: 1.35rem;
+  background-color: #b1c4e7;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.Continue-with > img {
+  width: 15%;
+}
+.Continue-with {
+  border: 1px solid transparent;
+  display: flex;
+  width: 30%;
+  margin: auto;
+  /* gap:1rem; */
+  justify-content: space-between;
+}
+
+.loader {
+  margin-top: 20%;
+  margin-left: 45%;
+}
