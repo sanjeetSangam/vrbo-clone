@@ -1,0 +1,155 @@
+.Payment-nav {
+  display: flex;
+  justify-content: space-between;
+  /* background-color:aqua; */
+  padding: 2%;
+}
+
+body {
+  background-color: #f5f4f3;
+}
+
+.Payment-box {
+  border: 1px solid transparent;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2%;
+}
+
+.Payment-left > div {
+  background-color: white;
+  padding: 2%;
+}
+
+.Payment-right > div {
+  background-color: white;
+  padding: 2%;
+}
+.Payment-right {
+  width: 40%;
+}
+
+.Payment-text-center {
+  text-align: center;
+}
+
+.Credit-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Credit-images img {
+  width: 10%;
+}
+
+.Payment-input-name > input {
+  padding: 3.6%;
+  margin: 2%;
+  margin-left: 0;
+  width: 39.4%;
+}
+
+#Card-number {
+  width: 89%;
+  padding: 3.6%;
+}
+
+.Three-input-boxes {
+  display: flex;
+}
+
+.Three-input-boxes > input {
+  padding: 3.6%;
+  margin: 2%;
+  margin-left: 0;
+  width: 30%;
+}
+
+.Refund-policy {
+  margin-top: 2%;
+}
+
+.Payment-button-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Payment-button-div > button {
+  background-color: #1c4695;
+  color: white;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 2.6875rem;
+  font-size: 1.0625rem;
+}
+
+.Payment-right > div {
+  background-color: white;
+}
+
+.Telephone-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#call-icon {
+  align-self: center;
+}
+
+.Check-in-out {
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Check-in-out > div {
+  border: 1px solid transparent;
+  width: 47%;
+}
+
+.Check-in-out > div > p {
+  border: 1px solid black;
+  padding: 4%;
+  margin: 0px;
+}
+
+.Guests {
+  width: 92%;
+  margin: auto;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.Guests > p {
+  border: 1px solid black;
+  padding: 4%;
+  margin: 0px;
+}
+
+.Service-charges {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+.Service-charges > p,
+.Service-charges > h4 {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.Offer-price {
+  text-align: center;
+}
+
+#Protected-pay {
+  width: 10%;
+}
